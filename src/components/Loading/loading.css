@@ -1,0 +1,21 @@
+.loader-box {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    animation: loader 1.5s;
+}
+
+@keyframes loader {
+    50% {
+        transform: scale(0.8);
+        transform: rotate(180deg);
+    }
+}
