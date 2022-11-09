@@ -1,0 +1,24 @@
+.pagination {
+    display: inline;
+}
+
+.btn {
+    height: 1.7rem;
+    width: 60px;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+    .pagination {
+        width: 20%;
+    }
+    .btn {
+        height: 2rem;
+        width: 80px;
+    }
+}
